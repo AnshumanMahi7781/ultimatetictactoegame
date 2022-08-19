@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header Section */
+
+#heading {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(105, 105, 83);
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Game Container Section */
+.gameContainer {
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+ 
+}
+.gameContainer .container {
+    display: grid;    
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+   
+}
+.line{
+    background-color: red;
+    height: 5px;
+    width: 0vw;
+    position: absolute;
+    transition: width 1s ease-in-out;
+    
+}
+
+.gameContainer .container .box{
+    border: 2px solid black;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameContainer .container .box:hover{
+   background-color: antiquewhite;
+   cursor: pointer;
+}
+.gameContainer .gameInfo{
+    margin-left: 200px;
+    padding: 0px 5vw;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: outset;
+    width: 200px;
+}
+
+.gameContainer .gameInfo .gameOver{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.gameContainer .gameInfo .info{
+    margin-top: 5px;
+    border: inset;
+    width: 100%;
+    text-align: center;
+    padding: 5px 2px;
+    font-size: 20px;
+}
+#reset{
+    width: 10vw;
+    padding: 5px 0px;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: beige;
+}
+
+
+.imgBox img{
+    margin-top: 20px;
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
+
+.gameContainer .container .bR{
+    border-right: 0;
+}
+
+.gameContainer .container  .bL{
+    border-left: 0;
+}
+
+.gameContainer .container .bT{
+    border-top: 0;
+}
+.gameContainer .container  .bB{
+    border-bottom: 0;
+}
+

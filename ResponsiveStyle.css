@@ -1,0 +1,107 @@
+
+@media (max-width: 768px){
+ 
+    #heading {
+        position: static;
+        height: 10vh;
+        font-size: 10px;
+    }
+   
+    .gameContainer {
+  
+        margin-top: 4vh;
+       
+      }
+    .gameContainer .gameInfo{
+        padding: 0px 10px;
+        margin-left:200px;
+        margin-right: 0px;
+        margin-top: 0px;   
+        width: 200px;    
+    }
+    .gameContainer .gameInfo .info{
+        margin-top: 0px;
+        border: inset;
+        width: 100%;
+        text-align: center;
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    #reset{
+        width: 20vw;
+        padding: 5px 0px;
+    }
+}
+
+@media (max-width: 622px){
+   
+    #heading {
+        position: static;
+        height: 10vh;
+        font-size: 10px;
+    }
+   
+    .gameContainer {
+  
+        margin-top: 4vh;
+       
+      }
+    .gameContainer .gameInfo{
+        padding: 0px 40px;
+        margin-left:300px;
+        margin-right: 300px;
+        margin-top: 15px;   
+        width: 1200px;      
+    }
+    .gameContainer .gameInfo .info{
+        margin-top: 25px;
+        border: inset;
+        width: 100%;
+        text-align: center;
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    #reset{
+        width: 20vw;
+        padding: 5px 0px;
+    }
+    
+ 
+   
+}
+
+@media (max-width: 400px){
+    
+    #heading {
+        position: static;
+        height: 10vh;
+        font-size: 10px;
+    }
+   
+    .gameContainer {
+  
+        margin-top: 4vh;
+       
+      }
+    .gameContainer .gameInfo{
+        padding: 0px 40px;
+        margin-left:300px;
+        margin-right: 300px;
+        margin-top: 90px;   
+        width: 1200px;      
+    }
+    .gameContainer .gameInfo .info{
+        margin-top: 25px;
+        border: inset;
+        width: 100%;
+        text-align: center;
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    #reset{
+        width: 20vw;
+        padding: 5px 0px;
+    }
+    
+  
+} 
